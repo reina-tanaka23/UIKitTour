@@ -13,6 +13,8 @@
 		37CF3E7726C8C75A00F371AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CF3E7526C8C75A00F371AA /* Main.storyboard */; };
 		37CF3E7926C8C77500F371AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CF3E7826C8C77500F371AA /* Assets.xcassets */; };
 		37CF3E7C26C8C77500F371AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CF3E7A26C8C77500F371AA /* LaunchScreen.storyboard */; };
+		37CF3E8426C8C7E700F371AA /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3E8326C8C7E700F371AA /* Reminder.swift */; };
+		37CF3E8626C8CC0300F371AA /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CF3E8526C8CC0300F371AA /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		37CF3E7826C8C77500F371AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CF3E7B26C8C77500F371AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37CF3E7D26C8C77500F371AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CF3E8326C8C7E700F371AA /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		37CF3E8526C8CC0300F371AA /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				37CF3E7126C8C75A00F371AA /* SceneDelegate.swift */,
 				37CF3E7326C8C75A00F371AA /* ViewController.swift */,
 				37CF3E7526C8C75A00F371AA /* Main.storyboard */,
+				37CF3E8526C8CC0300F371AA /* ReminderListCell.swift */,
+				37CF3E8326C8C7E700F371AA /* Reminder.swift */,
 				37CF3E7826C8C77500F371AA /* Assets.xcassets */,
 				37CF3E7A26C8C77500F371AA /* LaunchScreen.storyboard */,
 				37CF3E7D26C8C77500F371AA /* Info.plist */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CF3E7426C8C75A00F371AA /* ViewController.swift in Sources */,
+				37CF3E8626C8CC0300F371AA /* ReminderListCell.swift in Sources */,
 				37CF3E7026C8C75A00F371AA /* AppDelegate.swift in Sources */,
 				37CF3E7226C8C75A00F371AA /* SceneDelegate.swift in Sources */,
+				37CF3E8426C8C7E700F371AA /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.UIKitTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmail.UIKitTour;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
